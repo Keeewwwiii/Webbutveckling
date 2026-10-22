@@ -119,7 +119,7 @@ function load_page(page_number) {
             page1.innerHTML= "";
 
             page2.style.backgroundImage = "";
-            page1.style.backgroundImage = "url('src/cover.png')";
+            page1.style.backgroundImage = "url('img/cover.png')";
             
             page2.innerHTML = pages[page_number];
         } else {
@@ -134,7 +134,7 @@ function load_page(page_number) {
     } else {
         page1.style.transitionDuration = "0s";
         page1.style.transform = "rotateY(90deg)";
-        page2.style.backgroundImage = "url('src/cover.png')";
+        page2.style.backgroundImage = "url('img/cover.png')";
     }
 }
 
